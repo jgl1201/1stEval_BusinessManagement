@@ -21,7 +21,7 @@ print(numberAdd(number))
 
 #05
 def body_mass(weight, height):
-    return weight / height
+    return weight / height ** 2
 
 user_weight = int(input('Introduzca su peso en kg: '))
 user_height = int(input('introduzca su estatura en cm: '))
