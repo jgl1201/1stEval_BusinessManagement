@@ -83,3 +83,8 @@ ex10(products)
 
 def ex11(product, price, units):
     print(f'{product} tiene un precio de {price:0>9.2f}€ y hay {units:0>4.0f} unidades, y el precio final es de {price * units:0>11.2f}€')
+
+product = input("Introduce el nombre del producto: ")
+price = float(input("Introduce el precio unitario del producto: "))
+units = int(input("Introduce la cantidad de unidades del producto: "))
+ex11(product, price, units)
